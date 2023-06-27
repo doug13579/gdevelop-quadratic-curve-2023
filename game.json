@@ -1,0 +1,4608 @@
+{
+  "firstLayout": "",
+  "gdVersion": {
+    "build": 99,
+    "major": 4,
+    "minor": 0,
+    "revision": 0
+  },
+  "properties": {
+    "adaptGameResolutionAtRuntime": false,
+    "antialiasingMode": "MSAA",
+    "antialisingEnabledOnMobile": false,
+    "folderProject": false,
+    "orientation": "landscape",
+    "packageName": "com.example.gamename",
+    "pixelsRounding": false,
+    "projectUuid": "791ef0ff-ddea-4b42-938e-ee1f93e8af96",
+    "scaleMode": "linear",
+    "sizeOnStartupMode": "",
+    "templateSlug": "",
+    "useExternalSourceFiles": false,
+    "version": "1.0.0",
+    "name": "quadratic curve",
+    "description": "",
+    "author": "",
+    "windowWidth": 800,
+    "windowHeight": 600,
+    "latestCompilationDirectory": "",
+    "maxFPS": 60,
+    "minFPS": 20,
+    "verticalSync": false,
+    "platformSpecificAssets": {},
+    "loadingScreen": {
+      "backgroundColor": 0,
+      "backgroundFadeInDuration": 0.2,
+      "backgroundImageResourceName": "",
+      "gdevelopLogoStyle": "light",
+      "logoAndProgressFadeInDuration": 0.2,
+      "logoAndProgressLogoFadeInDelay": 0.2,
+      "minDuration": 1.5,
+      "progressBarColor": 16777215,
+      "progressBarHeight": 20,
+      "progressBarMaxWidth": 200,
+      "progressBarMinWidth": 40,
+      "progressBarWidthPercent": 30,
+      "showGDevelopSplash": true,
+      "showProgressBar": true
+    },
+    "watermark": {
+      "placement": "bottom-left",
+      "showWatermark": true
+    },
+    "authorIds": [],
+    "authorUsernames": [],
+    "categories": [],
+    "playableDevices": [],
+    "extensionProperties": [],
+    "platforms": [
+      {
+        "name": "GDevelop JS platform"
+      }
+    ],
+    "currentPlatform": "GDevelop JS platform"
+  },
+  "resources": {
+    "resources": [
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Small Plastic Green Round Slider Border2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Small Plastic Green Round Slider Border.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Settings UI/Slider/308609c5db4c7f741d0ea6ce46b7245524c9e48682f23c670ec81ea08f5917e5_Small Plastic Green Round Slider Border.png",
+          "name": "Small Plastic Green Round Slider Border.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Transparent2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Transparent.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Settings UI/Slider/998e0aec3ae57e2bafb3d52e26ab64b10153d411f90c62198effb90b18ecd603_Transparent.png",
+          "name": "Transparent.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Small Plastic Green Round Slider Thumb2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Small Plastic Green Round Slider Thumb.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Settings UI/Slider/f1fe4aaaa4d6da59e2bf6b9411de1f013b5d86c5cacda01f99226c78f427f606_Small Plastic Green Round Slider Thumb.png",
+          "name": "Small Plastic Green Round Slider Thumb.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite-1-0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\NewSprite-1-0.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite2-1-0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\NewSprite2-1-0.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/contolPoint-1-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\contolPoint-1-1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite-1-3 - Copy.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\NewSprite-1-3 - Copy.png",
+        "smoothed": true,
+        "userAdded": true
+      }
+    ],
+    "resourceFolders": []
+  },
+  "objects": [],
+  "objectsGroups": [],
+  "variables": [],
+  "layouts": [
+    {
+      "b": 209,
+      "disableInputWhenNotFocused": true,
+      "mangledName": "Untitled_32scene",
+      "name": "Untitled scene",
+      "r": 209,
+      "standardSortMethod": true,
+      "stopSoundsOnStartup": true,
+      "title": "",
+      "v": 209,
+      "uiSettings": {
+        "grid": false,
+        "gridType": "rectangular",
+        "gridWidth": 32,
+        "gridHeight": 32,
+        "gridOffsetX": 0,
+        "gridOffsetY": 0,
+        "gridColor": 10401023,
+        "gridAlpha": 0.8,
+        "snap": false,
+        "zoomFactor": 1.1599999938964858,
+        "windowMask": false
+      },
+      "objectsGroups": [
+        {
+          "name": "DragableGroup",
+          "objects": [
+            {
+              "name": "startPoint"
+            },
+            {
+              "name": "endPoint"
+            },
+            {
+              "name": "contolPoint"
+            }
+          ]
+        }
+      ],
+      "variables": [],
+      "instances": [
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "startPoint",
+          "persistentUuid": "5865105e-e5c8-4a30-8a89-ee77b86f2bcb",
+          "width": 0,
+          "x": 90,
+          "y": 510,
+          "zOrder": 2,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "folded": true,
+              "name": "id",
+              "type": "number",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "endPoint",
+          "persistentUuid": "4365e1dd-2d90-4e43-8e38-fb45866bf6a8",
+          "width": 0,
+          "x": 713,
+          "y": 498,
+          "zOrder": 4,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 0
+            }
+          ],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "folded": true,
+              "name": "id",
+              "type": "number",
+              "value": 2
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "NewShapePainter",
+          "persistentUuid": "d5675a4a-3a6b-4cf7-88a3-f4d153b13a7d",
+          "width": 0,
+          "x": 23,
+          "y": 20,
+          "zOrder": 0,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 61.00000762939453,
+          "layer": "",
+          "name": "contolPoint",
+          "persistentUuid": "7dbda548-df52-4ce2-92a1-b6e509c0ebd5",
+          "width": 64,
+          "x": 407,
+          "y": 177,
+          "zOrder": 6,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "pointOnCurve",
+          "persistentUuid": "e4afea92-9971-4f75-bafd-40910aaa7e0f",
+          "width": 0,
+          "x": 394.0000305175781,
+          "y": 274,
+          "zOrder": 12,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 32,
+          "height": 63,
+          "layer": "",
+          "name": "Slider",
+          "persistentUuid": "71976838-59b8-4365-846f-3268d1a7f7c5",
+          "width": 460,
+          "x": 157,
+          "y": 526,
+          "zOrder": 13,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        }
+      ],
+      "objects": [
+        {
+          "assetStoreId": "",
+          "name": "startPoint",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [
+            {
+              "folded": true,
+              "name": "id",
+              "type": "number",
+              "value": 0
+            }
+          ],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "Draggable",
+              "type": "DraggableBehavior::Draggable",
+              "checkCollisionMask": true
+            }
+          ],
+          "animations": [
+            {
+              "name": "NewSprite",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.07999999821186066,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "assets\\NewSprite-1-0.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 30.5,
+                        "y": 63.5
+                      },
+                      "centerPoint": {
+                        "automatic": false,
+                        "name": "centre",
+                        "x": 30.5,
+                        "y": 63
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "name": "contolPoint",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [
+            {
+              "folded": true,
+              "name": "id",
+              "type": "number",
+              "value": 0
+            }
+          ],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "Draggable",
+              "type": "DraggableBehavior::Draggable",
+              "checkCollisionMask": true
+            }
+          ],
+          "animations": [
+            {
+              "name": "contolPoint",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.07999999821186066,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "assets\\contolPoint-1-1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 32.20000076293945,
+                        "y": 63.45000076293945
+                      },
+                      "centerPoint": {
+                        "automatic": false,
+                        "name": "centre",
+                        "x": 32.003047943115234,
+                        "y": 63.075374603271484
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "name": "endPoint",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [
+            {
+              "folded": true,
+              "name": "id",
+              "type": "number",
+              "value": 0
+            }
+          ],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "Draggable",
+              "type": "DraggableBehavior::Draggable",
+              "checkCollisionMask": true
+            }
+          ],
+          "animations": [
+            {
+              "name": "NewSprite2",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.07999999821186066,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "assets\\NewSprite2-1-0.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 31.100000381469727,
+                        "y": 62.849998474121094
+                      },
+                      "centerPoint": {
+                        "automatic": false,
+                        "name": "centre",
+                        "x": 30.971599578857422,
+                        "y": 62.81751251220703
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "name": "NewShapePainter",
+          "tags": "",
+          "type": "PrimitiveDrawing::Drawer",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "fillOpacity": 0,
+          "outlineSize": 5,
+          "outlineOpacity": 255,
+          "fillColor": {
+            "b": 255,
+            "g": 255,
+            "r": 255
+          },
+          "outlineColor": {
+            "b": 226,
+            "g": 144,
+            "r": 74
+          },
+          "absoluteCoordinates": true,
+          "clearBetweenFrames": false,
+          "antialiasing": "none"
+        },
+        {
+          "assetStoreId": "",
+          "name": "pointOnCurve",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "NewSprite-1-3-Copy",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.07999999821186066,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "assets\\NewSprite-1-3 - Copy.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 16.00058937072754,
+                        "y": 16.10436248779297
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "05b0eb2d13ff37b70927d0184d4705e9c39c0b8fece7463127c4fe9eb65bb422",
+          "name": "Slider",
+          "tags": "",
+          "type": "PanelSpriteSlider::PanelSpriteSlider",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "content": {
+            "LabelMargin": -40,
+            "BarLeftPadding": 31,
+            "BarRightPadding": 31
+          },
+          "childrenContent": {
+            "Background": {
+              "bottomMargin": 31,
+              "height": 63,
+              "leftMargin": 31,
+              "rightMargin": 31,
+              "texture": "Small Plastic Green Round Slider Border.png",
+              "tiled": false,
+              "topMargin": 31,
+              "width": 583
+            },
+            "FillBar": {
+              "bottomMargin": 0,
+              "height": 16,
+              "leftMargin": 0,
+              "rightMargin": 0,
+              "texture": "Transparent.png",
+              "tiled": false,
+              "topMargin": 0,
+              "width": 16
+            },
+            "Label": {
+              "bold": false,
+              "italic": false,
+              "smoothed": true,
+              "underlined": false,
+              "string": "It displays the value when it changes.",
+              "font": "",
+              "textAlignment": "",
+              "characterSize": 20,
+              "color": {
+                "b": 75,
+                "g": 75,
+                "r": 77
+              }
+            },
+            "Thumb": {
+              "bottomMargin": 0,
+              "height": 59,
+              "leftMargin": 0,
+              "rightMargin": 0,
+              "texture": "Small Plastic Green Round Slider Thumb.png",
+              "tiled": false,
+              "topMargin": 0,
+              "width": 63
+            }
+          }
+        }
+      ],
+      "events": [
+        {
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "name": "Draw Quadratic thru control point using startingPoint , (tmpx,tmpy) , endPoint",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Or"
+                  },
+                  "parameters": [],
+                  "subInstructions": [
+                    {
+                      "type": {
+                        "value": "PanelSpriteSlider::PanelSpriteSlider::IsBeingDragged"
+                      },
+                      "parameters": [
+                        "Slider",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "DraggableBehavior::Dragged"
+                      },
+                      "parameters": [
+                        "DragableGroup",
+                        "Draggable"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "AjoutObjConcern"
+                      },
+                      "parameters": [
+                        "",
+                        "DragableGroup"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "AjoutObjConcern"
+                      },
+                      "parameters": [
+                        "",
+                        "Slider"
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "PrimitiveDrawing::Drawer::ClearShapes"
+                  },
+                  "parameters": [
+                    "NewShapePainter"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ModVarScene"
+                  },
+                  "parameters": [
+                    "t",
+                    "=",
+                    "Slider.Value()/100"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ModVarScene"
+                  },
+                  "parameters": [
+                    "tmpx1",
+                    "=",
+                    "startPoint.CenterX()-contolPoint.CenterX()"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ModVarScene"
+                  },
+                  "parameters": [
+                    "tmpy1",
+                    "=",
+                    "startPoint.CenterY()-contolPoint.CenterY()"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ModVarScene"
+                  },
+                  "parameters": [
+                    "tmpx2",
+                    "=",
+                    "endPoint.CenterX()-contolPoint.CenterX()"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ModVarScene"
+                  },
+                  "parameters": [
+                    "tmpy2",
+                    "=",
+                    "endPoint.CenterY()-contolPoint.CenterY()"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ModVarScene"
+                  },
+                  "parameters": [
+                    "dist1",
+                    "=",
+                    "sqrt(pow(Variable(tmpx1),2) + pow( Variable(tmpy1),2))"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ModVarScene"
+                  },
+                  "parameters": [
+                    "dist2",
+                    "=",
+                    "sqrt(pow(Variable(tmpx2),2) + pow( Variable(tmpy2),2))"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ModVarScene"
+                  },
+                  "parameters": [
+                    "tmpx",
+                    "=",
+                    "contolPoint.CenterX() - sqrt(Variable(dist1)*Variable(dist2)) *(Variable(tmpx1)/Variable(dist1)+Variable(tmpx2)/Variable(dist2))/2"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ModVarScene"
+                  },
+                  "parameters": [
+                    "tmpy",
+                    "=",
+                    "contolPoint.CenterY() - sqrt(Variable(dist1)*Variable(dist2)) *(Variable(tmpy1)/Variable(dist1)+Variable(tmpy2)/Variable(dist2))/2"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PrimitiveDrawing::QuadraticCurve"
+                  },
+                  "parameters": [
+                    "NewShapePainter",
+                    "startPoint.CenterX()",
+                    "startPoint.CenterY()",
+                    "Variable(tmpx)",
+                    "Variable(tmpy)",
+                    "endPoint.CenterX()",
+                    "endPoint.CenterY()"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "MettreXY"
+                  },
+                  "parameters": [
+                    "pointOnCurve",
+                    "=",
+                    "(1 - Variable(t)) * (1 - Variable(t)) * startPoint.CenterX() + 2 * (1 - Variable(t)) * Variable(t) * Variable(tmpx) + Variable(t) * Variable(t) * endPoint.CenterX()",
+                    "=",
+                    "(1 - Variable(t)) * (1 - Variable(t)) * startPoint.CenterY() + 2 * (1 - Variable(t)) * Variable(t) * Variable(tmpy) + Variable(t) * Variable(t) * endPoint.CenterY()"
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": []
+        }
+      ],
+      "layers": [
+        {
+          "ambientLightColorB": 32,
+          "ambientLightColorG": 0,
+          "ambientLightColorR": 0,
+          "camera3DFarPlaneDistance": 10000,
+          "camera3DFieldOfView": 45,
+          "camera3DNearPlaneDistance": 0.1,
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "isLocked": false,
+          "name": "",
+          "renderingType": "",
+          "visibility": true,
+          "cameras": [
+            {
+              "defaultSize": true,
+              "defaultViewport": true,
+              "height": 0,
+              "viewportBottom": 1,
+              "viewportLeft": 0,
+              "viewportRight": 1,
+              "viewportTop": 0,
+              "width": 0
+            }
+          ],
+          "effects": []
+        }
+      ],
+      "behaviorsSharedData": []
+    }
+  ],
+  "externalEvents": [],
+  "eventsFunctionsExtensions": [
+    {
+      "author": "",
+      "category": "User interface",
+      "extensionNamespace": "",
+      "fullName": "Slider",
+      "helpPath": "/objects/slider",
+      "iconUrl": "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4NCjwhLS0gR2VuZXJhdG9yOiBBZG9iZSBJbGx1c3RyYXRvciAyMy4wLjMsIFNWRyBFeHBvcnQgUGx1Zy1JbiAuIFNWRyBWZXJzaW9uOiA2LjAwIEJ1aWxkIDApICAtLT4NCjxzdmcgdmVyc2lvbj0iMS4xIiBpZD0iSWNvbnMiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4Ig0KCSB2aWV3Qm94PSIwIDAgMzIgMzIiIHN0eWxlPSJlbmFibGUtYmFja2dyb3VuZDpuZXcgMCAwIDMyIDMyOyIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSI+DQo8c3R5bGUgdHlwZT0idGV4dC9jc3MiPg0KCS5zdDB7ZmlsbDpub25lO3N0cm9rZTojMDAwMDAwO3N0cm9rZS13aWR0aDoyO3N0cm9rZS1saW5lY2FwOnJvdW5kO3N0cm9rZS1saW5lam9pbjpyb3VuZDtzdHJva2UtbWl0ZXJsaW1pdDoxMDt9DQo8L3N0eWxlPg0KPGNpcmNsZSBjbGFzcz0ic3QwIiBjeD0iMjMiIGN5PSI3IiByPSIzIi8+DQo8bGluZSBjbGFzcz0ic3QwIiB4MT0iMyIgeTE9IjciIHgyPSIyMCIgeTI9IjciLz4NCjxsaW5lIGNsYXNzPSJzdDAiIHgxPSIyOSIgeTE9IjciIHgyPSIyNiIgeTI9IjciLz4NCjxjaXJjbGUgY2xhc3M9InN0MCIgY3g9IjEyIiBjeT0iMTYiIHI9IjMiLz4NCjxsaW5lIGNsYXNzPSJzdDAiIHgxPSIzIiB5MT0iMTYiIHgyPSI5IiB5Mj0iMTYiLz4NCjxsaW5lIGNsYXNzPSJzdDAiIHgxPSIyOSIgeTE9IjE2IiB4Mj0iMTUiIHkyPSIxNiIvPg0KPGNpcmNsZSBjbGFzcz0ic3QwIiBjeD0iMjMiIGN5PSIyNSIgcj0iMyIvPg0KPGxpbmUgY2xhc3M9InN0MCIgeDE9IjMiIHkxPSIyNSIgeDI9IjIwIiB5Mj0iMjUiLz4NCjxsaW5lIGNsYXNzPSJzdDAiIHgxPSIyOSIgeTE9IjI1IiB4Mj0iMjYiIHkyPSIyNSIvPg0KPC9zdmc+DQo=",
+      "name": "PanelSpriteSlider",
+      "previewIconUrl": "https://asset-resources.gdevelop.io/public-resources/Icons/Line Hero Pack/Master/SVG/UI Essentials/1678c39a3b2bd3df4f82a8a293770db4986a6bcfd3f78e738ddfc86e39176423_UI Essentials_sliders_options.svg",
+      "shortDescription": "A draggable slider that users can move to select a numerical value.",
+      "version": "1.4.2",
+      "description": [
+        "A draggable slider that users can move to select a numerical value. The slider can be customized with sprites.",
+        "",
+        "There are ready-to-use sliders in the asset-store [settings UI pack](https://editor.gdevelop.io/?initial-dialog=asset-store&asset-pack=settings-ui-settings-ui)."
+      ],
+      "origin": {
+        "identifier": "PanelSpriteSlider",
+        "name": "gdevelop-extension-store"
+      },
+      "tags": [
+        "draggable",
+        "slider",
+        "ui",
+        "widget"
+      ],
+      "authorIds": [
+        "IWykYNRvhCZBN3vEgKEbBPOR3Oc2",
+        "gqDaZjCfevOOxBYkK6zlhtZnXCg1"
+      ],
+      "dependencies": [],
+      "eventsFunctions": [],
+      "eventsBasedBehaviors": [
+        {
+          "description": "Represent a value on a slider.",
+          "fullName": "Slider",
+          "name": "Slider",
+          "objectType": "",
+          "private": true,
+          "eventsFunctions": [
+            {
+              "description": "the value of the object.",
+              "fullName": "Value",
+              "functionType": "ExpressionAndCondition",
+              "name": "Value",
+              "sentence": "the value",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetReturnNumber"
+                      },
+                      "parameters": [
+                        "Object.Behavior::PropertyValue()"
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "expressionType": {
+                "type": "expression"
+              },
+              "parameters": [
+                {
+                  "description": "Object",
+                  "name": "Object",
+                  "type": "object"
+                },
+                {
+                  "description": "Behavior",
+                  "name": "Behavior",
+                  "supplementaryInformation": "PanelSpriteSlider::Slider",
+                  "type": "behavior"
+                }
+              ],
+              "objectGroups": []
+            },
+            {
+              "fullName": "",
+              "functionType": "ActionWithOperator",
+              "getterName": "Value",
+              "name": "SetValue",
+              "sentence": "",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "PanelSpriteSlider::Slider::PropertyStepSize"
+                      },
+                      "parameters": [
+                        "Object",
+                        "Behavior",
+                        "=",
+                        "0"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "PanelSpriteSlider::Slider::SetPropertyValue"
+                      },
+                      "parameters": [
+                        "Object",
+                        "Behavior",
+                        "=",
+                        "clamp(GetArgumentAsNumber(\"Value\"), Object.Behavior::PropertyMinValue(), Object.Behavior::PropertyMaxValue())"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "PanelSpriteSlider::Slider::PropertyStepSize"
+                      },
+                      "parameters": [
+                        "Object",
+                        "Behavior",
+                        "!=",
+                        "0"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "PanelSpriteSlider::Slider::SetPropertyValue"
+                      },
+                      "parameters": [
+                        "Object",
+                        "Behavior",
+                        "=",
+                        "clamp(round(GetArgumentAsNumber(\"Value\") / Object.Behavior::PropertyStepSize()) * Object.Behavior::PropertyStepSize(), Object.Behavior::PropertyMinValue(), Object.Behavior::PropertyMaxValue())"
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "parameters": [
+                {
+                  "description": "Object",
+                  "name": "Object",
+                  "type": "object"
+                },
+                {
+                  "description": "Behavior",
+                  "name": "Behavior",
+                  "supplementaryInformation": "PanelSpriteSlider::Slider",
+                  "type": "behavior"
+                }
+              ],
+              "objectGroups": []
+            },
+            {
+              "description": "the minimum value of the object.",
+              "fullName": "Minimum value",
+              "functionType": "ExpressionAndCondition",
+              "group": "Resource bar configuration",
+              "name": "MinValue",
+              "sentence": "the minimum value",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetReturnNumber"
+                      },
+                      "parameters": [
+                        "Object.Behavior::PropertyMinValue()"
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "expressionType": {
+                "type": "expression"
+              },
+              "parameters": [
+                {
+                  "description": "Object",
+                  "name": "Object",
+                  "type": "object"
+                },
+                {
+                  "description": "Behavior",
+                  "name": "Behavior",
+                  "supplementaryInformation": "PanelSpriteSlider::Slider",
+                  "type": "behavior"
+                }
+              ],
+              "objectGroups": []
+            },
+            {
+              "fullName": "",
+              "functionType": "ActionWithOperator",
+              "getterName": "MinValue",
+              "name": "SetMinValue",
+              "sentence": "",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "PanelSpriteSlider::Slider::SetPropertyMinValue"
+                      },
+                      "parameters": [
+                        "Object",
+                        "Behavior",
+                        "=",
+                        "GetArgumentAsNumber(\"Value\")"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "PanelSpriteSlider::Slider::SetValue"
+                      },
+                      "parameters": [
+                        "Object",
+                        "Behavior",
+                        "=",
+                        "Object.Behavior::Value()",
+                        ""
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "parameters": [
+                {
+                  "description": "Object",
+                  "name": "Object",
+                  "type": "object"
+                },
+                {
+                  "description": "Behavior",
+                  "name": "Behavior",
+                  "supplementaryInformation": "PanelSpriteSlider::Slider",
+                  "type": "behavior"
+                }
+              ],
+              "objectGroups": []
+            },
+            {
+              "description": "the maximum value of the object.",
+              "fullName": "Maximum value",
+              "functionType": "ExpressionAndCondition",
+              "group": "Resource bar configuration",
+              "name": "MaxValue",
+              "sentence": "the maximum value",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetReturnNumber"
+                      },
+                      "parameters": [
+                        "Object.Behavior::PropertyMaxValue()"
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "expressionType": {
+                "type": "expression"
+              },
+              "parameters": [
+                {
+                  "description": "Object",
+                  "name": "Object",
+                  "type": "object"
+                },
+                {
+                  "description": "Behavior",
+                  "name": "Behavior",
+                  "supplementaryInformation": "PanelSpriteSlider::Slider",
+                  "type": "behavior"
+                }
+              ],
+              "objectGroups": []
+            },
+            {
+              "fullName": "",
+              "functionType": "ActionWithOperator",
+              "getterName": "MaxValue",
+              "name": "SetMaxValue",
+              "sentence": "",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "PanelSpriteSlider::Slider::SetPropertyMaxValue"
+                      },
+                      "parameters": [
+                        "Object",
+                        "Behavior",
+                        "=",
+                        "GetArgumentAsNumber(\"Value\")"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "PanelSpriteSlider::Slider::SetValue"
+                      },
+                      "parameters": [
+                        "Object",
+                        "Behavior",
+                        "=",
+                        "Object.Behavior::Value()",
+                        ""
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "parameters": [
+                {
+                  "description": "Object",
+                  "name": "Object",
+                  "type": "object"
+                },
+                {
+                  "description": "Behavior",
+                  "name": "Behavior",
+                  "supplementaryInformation": "PanelSpriteSlider::Slider",
+                  "type": "behavior"
+                }
+              ],
+              "objectGroups": []
+            },
+            {
+              "description": "the bar value bounds size.",
+              "fullName": "Size",
+              "functionType": "ExpressionAndCondition",
+              "name": "Size",
+              "sentence": "the bar value bounds size",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetReturnNumber"
+                      },
+                      "parameters": [
+                        "Object.Behavior::MaxValue() - Object.Behavior::MinValue()"
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "expressionType": {
+                "type": "expression"
+              },
+              "parameters": [
+                {
+                  "description": "Object",
+                  "name": "Object",
+                  "type": "object"
+                },
+                {
+                  "description": "Behavior",
+                  "name": "Behavior",
+                  "supplementaryInformation": "PanelSpriteSlider::Slider",
+                  "type": "behavior"
+                }
+              ],
+              "objectGroups": []
+            },
+            {
+              "description": "the step size of the object.",
+              "fullName": "Step size",
+              "functionType": "ExpressionAndCondition",
+              "group": "Resource bar configuration",
+              "name": "StepSize",
+              "sentence": "the step size",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetReturnNumber"
+                      },
+                      "parameters": [
+                        "Object.Behavior::PropertyStepSize()"
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "expressionType": {
+                "type": "expression"
+              },
+              "parameters": [
+                {
+                  "description": "Object",
+                  "name": "Object",
+                  "type": "object"
+                },
+                {
+                  "description": "Behavior",
+                  "name": "Behavior",
+                  "supplementaryInformation": "PanelSpriteSlider::Slider",
+                  "type": "behavior"
+                }
+              ],
+              "objectGroups": []
+            },
+            {
+              "fullName": "",
+              "functionType": "ActionWithOperator",
+              "getterName": "StepSize",
+              "name": "SetStepSize",
+              "sentence": "",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "PanelSpriteSlider::Slider::SetPropertyStepSize"
+                      },
+                      "parameters": [
+                        "Object",
+                        "Behavior",
+                        "=",
+                        "GetArgumentAsNumber(\"Value\")"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "PanelSpriteSlider::Slider::SetValue"
+                      },
+                      "parameters": [
+                        "Object",
+                        "Behavior",
+                        "=",
+                        "Object.Behavior::Value()",
+                        ""
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "parameters": [
+                {
+                  "description": "Object",
+                  "name": "Object",
+                  "type": "object"
+                },
+                {
+                  "description": "Behavior",
+                  "name": "Behavior",
+                  "supplementaryInformation": "PanelSpriteSlider::Slider",
+                  "type": "behavior"
+                }
+              ],
+              "objectGroups": []
+            }
+          ],
+          "propertyDescriptors": [
+            {
+              "value": "0",
+              "type": "Number",
+              "label": "Value",
+              "description": "",
+              "group": "",
+              "extraInformation": [],
+              "hidden": false,
+              "name": "Value"
+            },
+            {
+              "value": "0",
+              "type": "Number",
+              "label": "Minimum value",
+              "description": "",
+              "group": "",
+              "extraInformation": [],
+              "hidden": false,
+              "name": "MinValue"
+            },
+            {
+              "value": "1",
+              "type": "Number",
+              "label": "Maximum value",
+              "description": "",
+              "group": "",
+              "extraInformation": [],
+              "hidden": false,
+              "name": "MaxValue"
+            },
+            {
+              "value": "0",
+              "type": "Number",
+              "label": "Step size",
+              "description": "",
+              "group": "",
+              "extraInformation": [],
+              "hidden": false,
+              "name": "StepSize"
+            }
+          ],
+          "sharedPropertyDescriptors": []
+        },
+        {
+          "description": "The finite state machine used internally by the button object.",
+          "fullName": "Button finite state machine",
+          "name": "ButtonFSM",
+          "objectType": "",
+          "private": true,
+          "eventsFunctions": [
+            {
+              "fullName": "",
+              "functionType": "Action",
+              "name": "doStepPostEvents",
+              "sentence": "",
+              "events": [
+                {
+                  "colorB": 228,
+                  "colorG": 176,
+                  "colorR": 74,
+                  "creationTime": 0,
+                  "name": "Finite state machine",
+                  "source": "",
+                  "type": "BuiltinCommonInstructions::Group",
+                  "events": [
+                    {
+                      "type": "BuiltinCommonInstructions::Comment",
+                      "color": {
+                        "b": 109,
+                        "g": 230,
+                        "r": 255,
+                        "textB": 0,
+                        "textG": 0,
+                        "textR": 0
+                      },
+                      "comment": "The \"Validated\" state only last one frame."
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "PanelSpriteSlider::ButtonFSM::PropertyState"
+                          },
+                          "parameters": [
+                            "Object",
+                            "Behavior",
+                            "=",
+                            "\"Validated\""
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "PanelSpriteSlider::ButtonFSM::SetPropertyState"
+                          },
+                          "parameters": [
+                            "Object",
+                            "Behavior",
+                            "=",
+                            "\"Idle\""
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "colorB": 228,
+                      "colorG": 176,
+                      "colorR": 74,
+                      "creationTime": 0,
+                      "name": "Check position",
+                      "source": "",
+                      "type": "BuiltinCommonInstructions::Group",
+                      "events": [
+                        {
+                          "type": "BuiltinCommonInstructions::Comment",
+                          "color": {
+                            "b": 109,
+                            "g": 230,
+                            "r": 255,
+                            "textB": 0,
+                            "textG": 0,
+                            "textR": 0
+                          },
+                          "comment": "Make sure the cursor position is only checked once per frame."
+                        },
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "PanelSpriteSlider::ButtonFSM::SetPropertyMouseIsInside"
+                              },
+                              "parameters": [
+                                "Object",
+                                "Behavior",
+                                "no"
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "PanelSpriteSlider::ButtonFSM::PropertyShouldCheckHovering"
+                              },
+                              "parameters": [
+                                "Object",
+                                "Behavior"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "CollisionPoint"
+                              },
+                              "parameters": [
+                                "Object",
+                                "MouseOnlyCursorX(Object.Layer(), 0)",
+                                "MouseOnlyCursorY(Object.Layer(), 0)"
+                              ]
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "PanelSpriteSlider::ButtonFSM::SetPropertyMouseIsInside"
+                              },
+                              "parameters": [
+                                "Object",
+                                "Behavior",
+                                "yes"
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "BuiltinCommonInstructions::Comment",
+                          "color": {
+                            "b": 109,
+                            "g": 230,
+                            "r": 255,
+                            "textB": 0,
+                            "textG": 0,
+                            "textR": 0
+                          },
+                          "comment": "Touches are always pressed, so ShouldCheckHovering doesn't matter."
+                        },
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "PanelSpriteSlider::ButtonFSM::SetPropertyTouchIsInside"
+                              },
+                              "parameters": [
+                                "Object",
+                                "Behavior",
+                                "no"
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "PanelSpriteSlider::ButtonFSM::PropertyTouchId"
+                              },
+                              "parameters": [
+                                "Object",
+                                "Behavior",
+                                "!=",
+                                "0"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "CollisionPoint"
+                              },
+                              "parameters": [
+                                "Object",
+                                "TouchX(Object.Behavior::PropertyTouchId(), Object.Layer(), 0)",
+                                "TouchY(Object.Behavior::PropertyTouchId(), Object.Layer(), 0)"
+                              ]
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "PanelSpriteSlider::ButtonFSM::SetPropertyTouchIsInside"
+                              },
+                              "parameters": [
+                                "Object",
+                                "Behavior",
+                                "yes"
+                              ]
+                            }
+                          ]
+                        }
+                      ],
+                      "parameters": []
+                    },
+                    {
+                      "colorB": 228,
+                      "colorG": 176,
+                      "colorR": 74,
+                      "creationTime": 0,
+                      "name": "Handle touch start",
+                      "source": "",
+                      "type": "BuiltinCommonInstructions::Group",
+                      "events": [
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "HasAnyTouchOrMouseStarted"
+                              },
+                              "parameters": [
+                                ""
+                              ]
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "PanelSpriteSlider::ButtonFSM::SetPropertyIndex"
+                              },
+                              "parameters": [
+                                "Object",
+                                "Behavior",
+                                "=",
+                                "0"
+                              ]
+                            }
+                          ],
+                          "events": [
+                            {
+                              "type": "BuiltinCommonInstructions::Repeat",
+                              "repeatExpression": "StartedTouchOrMouseCount()",
+                              "conditions": [],
+                              "actions": [],
+                              "events": [
+                                {
+                                  "type": "BuiltinCommonInstructions::Standard",
+                                  "conditions": [
+                                    {
+                                      "type": {
+                                        "value": "CollisionPoint"
+                                      },
+                                      "parameters": [
+                                        "Object",
+                                        "TouchX(StartedTouchOrMouseId(Object.Behavior::PropertyIndex()), Object.Layer(), 0)",
+                                        "TouchY(StartedTouchOrMouseId(Object.Behavior::PropertyIndex()), Object.Layer(), 0)"
+                                      ]
+                                    }
+                                  ],
+                                  "actions": [
+                                    {
+                                      "type": {
+                                        "value": "PanelSpriteSlider::ButtonFSM::SetPropertyTouchId"
+                                      },
+                                      "parameters": [
+                                        "Object",
+                                        "Behavior",
+                                        "=",
+                                        "StartedTouchOrMouseId(Object.Behavior::PropertyIndex())"
+                                      ]
+                                    },
+                                    {
+                                      "type": {
+                                        "value": "PanelSpriteSlider::ButtonFSM::SetPropertyTouchIsInside"
+                                      },
+                                      "parameters": [
+                                        "Object",
+                                        "Behavior",
+                                        "yes"
+                                      ]
+                                    }
+                                  ],
+                                  "events": [
+                                    {
+                                      "type": "BuiltinCommonInstructions::Standard",
+                                      "conditions": [
+                                        {
+                                          "type": {
+                                            "value": "BuiltinCommonInstructions::Or"
+                                          },
+                                          "parameters": [],
+                                          "subInstructions": [
+                                            {
+                                              "type": {
+                                                "value": "PanelSpriteSlider::ButtonFSM::PropertyState"
+                                              },
+                                              "parameters": [
+                                                "Object",
+                                                "Behavior",
+                                                "=",
+                                                "\"Hovered\""
+                                              ]
+                                            },
+                                            {
+                                              "type": {
+                                                "value": "PanelSpriteSlider::ButtonFSM::PropertyState"
+                                              },
+                                              "parameters": [
+                                                "Object",
+                                                "Behavior",
+                                                "=",
+                                                "\"Idle\""
+                                              ]
+                                            }
+                                          ]
+                                        }
+                                      ],
+                                      "actions": [
+                                        {
+                                          "type": {
+                                            "value": "PanelSpriteSlider::ButtonFSM::SetPropertyState"
+                                          },
+                                          "parameters": [
+                                            "Object",
+                                            "Behavior",
+                                            "=",
+                                            "\"PressedInside\""
+                                          ]
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "BuiltinCommonInstructions::Standard",
+                                  "conditions": [],
+                                  "actions": [
+                                    {
+                                      "type": {
+                                        "value": "PanelSpriteSlider::ButtonFSM::SetPropertyIndex"
+                                      },
+                                      "parameters": [
+                                        "Object",
+                                        "Behavior",
+                                        "+",
+                                        "1"
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ],
+                      "parameters": []
+                    },
+                    {
+                      "colorB": 228,
+                      "colorG": 176,
+                      "colorR": 74,
+                      "creationTime": 0,
+                      "name": "Apply position changes",
+                      "source": "",
+                      "type": "BuiltinCommonInstructions::Group",
+                      "events": [
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "inverted": true,
+                                "value": "PanelSpriteSlider::ButtonFSM::PropertyMouseIsInside"
+                              },
+                              "parameters": [
+                                "Object",
+                                "Behavior"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "PanelSpriteSlider::ButtonFSM::PropertyState"
+                              },
+                              "parameters": [
+                                "Object",
+                                "Behavior",
+                                "=",
+                                "\"Hovered\""
+                              ]
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "PanelSpriteSlider::ButtonFSM::SetPropertyState"
+                              },
+                              "parameters": [
+                                "Object",
+                                "Behavior",
+                                "=",
+                                "\"Idle\""
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "PanelSpriteSlider::ButtonFSM::PropertyMouseIsInside"
+                              },
+                              "parameters": [
+                                "Object",
+                                "Behavior"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "PanelSpriteSlider::ButtonFSM::PropertyState"
+                              },
+                              "parameters": [
+                                "Object",
+                                "Behavior",
+                                "=",
+                                "\"Idle\""
+                              ]
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "PanelSpriteSlider::ButtonFSM::SetPropertyState"
+                              },
+                              "parameters": [
+                                "Object",
+                                "Behavior",
+                                "=",
+                                "\"Hovered\""
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "inverted": true,
+                                "value": "PanelSpriteSlider::ButtonFSM::PropertyTouchIsInside"
+                              },
+                              "parameters": [
+                                "Object",
+                                "Behavior"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "PanelSpriteSlider::ButtonFSM::PropertyState"
+                              },
+                              "parameters": [
+                                "Object",
+                                "Behavior",
+                                "=",
+                                "\"PressedInside\""
+                              ]
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "PanelSpriteSlider::ButtonFSM::SetPropertyState"
+                              },
+                              "parameters": [
+                                "Object",
+                                "Behavior",
+                                "=",
+                                "\"PressedOutside\""
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "PanelSpriteSlider::ButtonFSM::PropertyTouchIsInside"
+                              },
+                              "parameters": [
+                                "Object",
+                                "Behavior"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "PanelSpriteSlider::ButtonFSM::PropertyState"
+                              },
+                              "parameters": [
+                                "Object",
+                                "Behavior",
+                                "=",
+                                "\"PressedOutside\""
+                              ]
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "PanelSpriteSlider::ButtonFSM::SetPropertyState"
+                              },
+                              "parameters": [
+                                "Object",
+                                "Behavior",
+                                "=",
+                                "\"PressedInside\""
+                              ]
+                            }
+                          ]
+                        }
+                      ],
+                      "parameters": []
+                    },
+                    {
+                      "colorB": 228,
+                      "colorG": 176,
+                      "colorR": 74,
+                      "creationTime": 0,
+                      "name": "Handle touch end",
+                      "source": "",
+                      "type": "BuiltinCommonInstructions::Group",
+                      "events": [
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "HasTouchEnded"
+                              },
+                              "parameters": [
+                                "",
+                                "Object.Behavior::PropertyTouchId()"
+                              ]
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "PanelSpriteSlider::ButtonFSM::SetPropertyTouchId"
+                              },
+                              "parameters": [
+                                "Object",
+                                "Behavior",
+                                "=",
+                                "0"
+                              ]
+                            }
+                          ],
+                          "events": [
+                            {
+                              "type": "BuiltinCommonInstructions::Standard",
+                              "conditions": [
+                                {
+                                  "type": {
+                                    "value": "PanelSpriteSlider::ButtonFSM::PropertyState"
+                                  },
+                                  "parameters": [
+                                    "Object",
+                                    "Behavior",
+                                    "=",
+                                    "\"PressedInside\""
+                                  ]
+                                }
+                              ],
+                              "actions": [
+                                {
+                                  "type": {
+                                    "value": "PanelSpriteSlider::ButtonFSM::SetPropertyState"
+                                  },
+                                  "parameters": [
+                                    "Object",
+                                    "Behavior",
+                                    "=",
+                                    "\"Validated\""
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "type": "BuiltinCommonInstructions::Standard",
+                              "conditions": [
+                                {
+                                  "type": {
+                                    "inverted": true,
+                                    "value": "PanelSpriteSlider::ButtonFSM::PropertyState"
+                                  },
+                                  "parameters": [
+                                    "Object",
+                                    "Behavior",
+                                    "=",
+                                    "\"PressedInside\""
+                                  ]
+                                },
+                                {
+                                  "type": {
+                                    "inverted": true,
+                                    "value": "PanelSpriteSlider::ButtonFSM::PropertyState"
+                                  },
+                                  "parameters": [
+                                    "Object",
+                                    "Behavior",
+                                    "=",
+                                    "\"Validated\""
+                                  ]
+                                }
+                              ],
+                              "actions": [
+                                {
+                                  "type": {
+                                    "value": "PanelSpriteSlider::ButtonFSM::SetPropertyState"
+                                  },
+                                  "parameters": [
+                                    "Object",
+                                    "Behavior",
+                                    "=",
+                                    "\"Idle\""
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ],
+                      "parameters": []
+                    }
+                  ],
+                  "parameters": []
+                }
+              ],
+              "parameters": [
+                {
+                  "description": "Object",
+                  "name": "Object",
+                  "type": "object"
+                },
+                {
+                  "description": "Behavior",
+                  "name": "Behavior",
+                  "supplementaryInformation": "PanelSpriteSlider::ButtonFSM",
+                  "type": "behavior"
+                }
+              ],
+              "objectGroups": []
+            },
+            {
+              "fullName": "",
+              "functionType": "Action",
+              "name": "onDeActivate",
+              "sentence": "",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "PanelSpriteSlider::ButtonFSM::SetPropertyState"
+                      },
+                      "parameters": [
+                        "Object",
+                        "Behavior",
+                        "=",
+                        "\"Idle\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "PanelSpriteSlider::ButtonFSM::SetPropertyTouchId"
+                      },
+                      "parameters": [
+                        "Object",
+                        "Behavior",
+                        "=",
+                        "0"
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "parameters": [
+                {
+                  "description": "Object",
+                  "name": "Object",
+                  "type": "object"
+                },
+                {
+                  "description": "Behavior",
+                  "name": "Behavior",
+                  "supplementaryInformation": "PanelSpriteSlider::ButtonFSM",
+                  "type": "behavior"
+                }
+              ],
+              "objectGroups": []
+            },
+            {
+              "description": "Check if the button is not used.",
+              "fullName": "Is idle",
+              "functionType": "Condition",
+              "name": "IsIdle",
+              "sentence": "_PARAM0_ is idle",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "PanelSpriteSlider::ButtonFSM::PropertyState"
+                      },
+                      "parameters": [
+                        "Object",
+                        "Behavior",
+                        "=",
+                        "\"Idle\""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetReturnBoolean"
+                      },
+                      "parameters": [
+                        "True"
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "parameters": [
+                {
+                  "description": "Object",
+                  "name": "Object",
+                  "type": "object"
+                },
+                {
+                  "description": "Behavior",
+                  "name": "Behavior",
+                  "supplementaryInformation": "PanelSpriteSlider::ButtonFSM",
+                  "type": "behavior"
+                }
+              ],
+              "objectGroups": []
+            },
+            {
+              "description": "Check if the button was just clicked.",
+              "fullName": "Is clicked",
+              "functionType": "Condition",
+              "name": "IsClicked",
+              "sentence": "_PARAM0_ is clicked",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "PanelSpriteSlider::ButtonFSM::PropertyState"
+                      },
+                      "parameters": [
+                        "Object",
+                        "Behavior",
+                        "=",
+                        "\"Validated\""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetReturnBoolean"
+                      },
+                      "parameters": [
+                        "True"
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "parameters": [
+                {
+                  "description": "Object",
+                  "name": "Object",
+                  "type": "object"
+                },
+                {
+                  "description": "Behavior",
+                  "name": "Behavior",
+                  "supplementaryInformation": "PanelSpriteSlider::ButtonFSM",
+                  "type": "behavior"
+                }
+              ],
+              "objectGroups": []
+            },
+            {
+              "description": "Check if the cursor is hovered over the button.",
+              "fullName": "Is hovered",
+              "functionType": "Condition",
+              "name": "IsHovered",
+              "sentence": "_PARAM0_ is hovered",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "PanelSpriteSlider::ButtonFSM::PropertyState"
+                      },
+                      "parameters": [
+                        "Object",
+                        "Behavior",
+                        "=",
+                        "\"Hovered\""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetReturnBoolean"
+                      },
+                      "parameters": [
+                        "True"
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "parameters": [
+                {
+                  "description": "Object",
+                  "name": "Object",
+                  "type": "object"
+                },
+                {
+                  "description": "Behavior",
+                  "name": "Behavior",
+                  "supplementaryInformation": "PanelSpriteSlider::ButtonFSM",
+                  "type": "behavior"
+                }
+              ],
+              "objectGroups": []
+            },
+            {
+              "description": "Check if the button is either hovered or pressed but not hovered.",
+              "fullName": "Is focused",
+              "functionType": "Condition",
+              "name": "IsFocused",
+              "sentence": "_PARAM0_ is focused",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "PanelSpriteSlider::ButtonFSM::PropertyState"
+                      },
+                      "parameters": [
+                        "Object",
+                        "Behavior",
+                        "=",
+                        "\"Hovered\""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetReturnBoolean"
+                      },
+                      "parameters": [
+                        "True"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "PanelSpriteSlider::ButtonFSM::PropertyState"
+                      },
+                      "parameters": [
+                        "Object",
+                        "Behavior",
+                        "=",
+                        "\"PressedOutside\""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetReturnBoolean"
+                      },
+                      "parameters": [
+                        "True"
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "parameters": [
+                {
+                  "description": "Object",
+                  "name": "Object",
+                  "type": "object"
+                },
+                {
+                  "description": "Behavior",
+                  "name": "Behavior",
+                  "supplementaryInformation": "PanelSpriteSlider::ButtonFSM",
+                  "type": "behavior"
+                }
+              ],
+              "objectGroups": []
+            },
+            {
+              "description": "Check if the button is currently being pressed with mouse or touch.",
+              "fullName": "Is pressed",
+              "functionType": "Condition",
+              "name": "IsPressed",
+              "sentence": "_PARAM0_ is pressed",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "PanelSpriteSlider::ButtonFSM::PropertyState"
+                      },
+                      "parameters": [
+                        "Object",
+                        "Behavior",
+                        "=",
+                        "\"PressedInside\""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetReturnBoolean"
+                      },
+                      "parameters": [
+                        "True"
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "parameters": [
+                {
+                  "description": "Object",
+                  "name": "Object",
+                  "type": "object"
+                },
+                {
+                  "description": "Behavior",
+                  "name": "Behavior",
+                  "supplementaryInformation": "PanelSpriteSlider::ButtonFSM",
+                  "type": "behavior"
+                }
+              ],
+              "objectGroups": []
+            },
+            {
+              "description": "Check if the button is currently being pressed outside with mouse or touch.",
+              "fullName": "Is held outside",
+              "functionType": "Condition",
+              "name": "IsPressedOutside",
+              "sentence": "_PARAM0_ is held outside",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "PanelSpriteSlider::ButtonFSM::PropertyState"
+                      },
+                      "parameters": [
+                        "Object",
+                        "Behavior",
+                        "=",
+                        "\"PressedOutside\""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetReturnBoolean"
+                      },
+                      "parameters": [
+                        "True"
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "parameters": [
+                {
+                  "description": "Object",
+                  "name": "Object",
+                  "type": "object"
+                },
+                {
+                  "description": "Behavior",
+                  "name": "Behavior",
+                  "supplementaryInformation": "PanelSpriteSlider::ButtonFSM",
+                  "type": "behavior"
+                }
+              ],
+              "objectGroups": []
+            },
+            {
+              "description": "the touch id that is using the button or 0 if none.",
+              "fullName": "Touch id",
+              "functionType": "ExpressionAndCondition",
+              "name": "TouchId",
+              "sentence": "the touch id",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetReturnNumber"
+                      },
+                      "parameters": [
+                        "Object.Behavior::PropertyTouchId()"
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "expressionType": {
+                "type": "expression"
+              },
+              "parameters": [
+                {
+                  "description": "Object",
+                  "name": "Object",
+                  "type": "object"
+                },
+                {
+                  "description": "Behavior",
+                  "name": "Behavior",
+                  "supplementaryInformation": "PanelSpriteSlider::ButtonFSM",
+                  "type": "behavior"
+                }
+              ],
+              "objectGroups": []
+            }
+          ],
+          "propertyDescriptors": [
+            {
+              "value": "true",
+              "type": "Boolean",
+              "label": "",
+              "description": "Should check hovering",
+              "group": "",
+              "extraInformation": [],
+              "hidden": true,
+              "name": "ShouldCheckHovering"
+            },
+            {
+              "value": "Idle",
+              "type": "Choice",
+              "label": "State",
+              "description": "",
+              "group": "",
+              "extraInformation": [
+                "Idle",
+                "Hovered",
+                "PressedInside",
+                "PressedOutside",
+                "Validated"
+              ],
+              "hidden": true,
+              "name": "State"
+            },
+            {
+              "value": "0",
+              "type": "Number",
+              "label": "Touch id",
+              "description": "",
+              "group": "",
+              "extraInformation": [],
+              "hidden": true,
+              "name": "TouchId"
+            },
+            {
+              "value": "",
+              "type": "Boolean",
+              "label": "Touch is inside",
+              "description": "",
+              "group": "",
+              "extraInformation": [],
+              "hidden": true,
+              "name": "TouchIsInside"
+            },
+            {
+              "value": "",
+              "type": "Boolean",
+              "label": "Mouse is inside",
+              "description": "",
+              "group": "",
+              "extraInformation": [],
+              "hidden": true,
+              "name": "MouseIsInside"
+            },
+            {
+              "value": "",
+              "type": "Number",
+              "label": "",
+              "description": "",
+              "group": "",
+              "extraInformation": [],
+              "hidden": true,
+              "name": "Index"
+            }
+          ],
+          "sharedPropertyDescriptors": []
+        }
+      ],
+      "eventsBasedObjects": [
+        {
+          "defaultName": "Slider",
+          "description": "Let users select a numerical value by dragging a slider.",
+          "fullName": "Slider",
+          "name": "PanelSpriteSlider",
+          "eventsFunctions": [
+            {
+              "fullName": "",
+              "functionType": "Action",
+              "name": "onCreated",
+              "sentence": "",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Comment",
+                  "color": {
+                    "b": 109,
+                    "g": 230,
+                    "r": 255,
+                    "textB": 0,
+                    "textG": 0,
+                    "textR": 0
+                  },
+                  "comment": "This allows to detect a change of \"intial value\" on hot reload."
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "PanelSpriteSlider::PanelSpriteSlider::SetPropertyPreviousInitialValue"
+                      },
+                      "parameters": [
+                        "Object",
+                        "=",
+                        "Object.PropertyInitialValue()"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Comment",
+                  "color": {
+                    "b": 109,
+                    "g": 230,
+                    "r": 255,
+                    "textB": 0,
+                    "textG": 0,
+                    "textR": 0
+                  },
+                  "comment": "Create the child-object instances."
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "Create"
+                      },
+                      "parameters": [
+                        "",
+                        "Background",
+                        "0",
+                        "0",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Create"
+                      },
+                      "parameters": [
+                        "",
+                        "FillBar",
+                        "0",
+                        "0",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Create"
+                      },
+                      "parameters": [
+                        "",
+                        "Thumb",
+                        "0",
+                        "0",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ChangePlan"
+                      },
+                      "parameters": [
+                        "Background",
+                        "=",
+                        "1"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ChangePlan"
+                      },
+                      "parameters": [
+                        "FillBar",
+                        "=",
+                        "2"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ChangePlan"
+                      },
+                      "parameters": [
+                        "Thumb",
+                        "=",
+                        "3"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Comment",
+                  "color": {
+                    "b": 109,
+                    "g": 230,
+                    "r": 255,
+                    "textB": 0,
+                    "textG": 0,
+                    "textR": 0
+                  },
+                  "comment": "Create the label that is displayed over the thumb."
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "Create"
+                      },
+                      "parameters": [
+                        "",
+                        "Label",
+                        "0",
+                        "0",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ChangePlan"
+                      },
+                      "parameters": [
+                        "Label",
+                        "=",
+                        "4"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "TextObject::SetWrapping"
+                      },
+                      "parameters": [
+                        "Label",
+                        "no"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Cache"
+                      },
+                      "parameters": [
+                        "Label"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Comment",
+                  "color": {
+                    "b": 109,
+                    "g": 230,
+                    "r": 255,
+                    "textB": 0,
+                    "textG": 0,
+                    "textR": 0
+                  },
+                  "comment": "Pass the configuration to the behavior."
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "PanelSpriteSlider::PanelSpriteSlider::UpdateSliderConfiguration"
+                      },
+                      "parameters": [
+                        "Object",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "PanelSpriteSlider::PanelSpriteSlider::SetValue"
+                      },
+                      "parameters": [
+                        "Object",
+                        "=",
+                        "Object.PropertyInitialValue()",
+                        "Object.PropertyInitialValue()"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetIncludedInParentCollisionMask"
+                      },
+                      "parameters": [
+                        "Label",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetIncludedInParentCollisionMask"
+                      },
+                      "parameters": [
+                        "Thumb",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetIncludedInParentCollisionMask"
+                      },
+                      "parameters": [
+                        "FillBar",
+                        ""
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "parameters": [
+                {
+                  "description": "Object",
+                  "name": "Object",
+                  "supplementaryInformation": "PanelSpriteSlider::PanelSpriteSlider",
+                  "type": "object"
+                }
+              ],
+              "objectGroups": []
+            },
+            {
+              "fullName": "",
+              "functionType": "Action",
+              "name": "onHotReloading",
+              "sentence": "",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "PanelSpriteSlider::PanelSpriteSlider::UpdateLayout"
+                      },
+                      "parameters": [
+                        "Object",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "PanelSpriteSlider::PanelSpriteSlider::UpdateSliderConfiguration"
+                      },
+                      "parameters": [
+                        "Object",
+                        ""
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "PanelSpriteSlider::PanelSpriteSlider::PropertyInitialValue"
+                      },
+                      "parameters": [
+                        "Object",
+                        "!=",
+                        "Object.PropertyPreviousInitialValue()"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "PanelSpriteSlider::PanelSpriteSlider::SetPropertyPreviousInitialValue"
+                      },
+                      "parameters": [
+                        "Object",
+                        "=",
+                        "Object.PropertyInitialValue()"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "PanelSpriteSlider::PanelSpriteSlider::SetValue"
+                      },
+                      "parameters": [
+                        "Object",
+                        "=",
+                        "Object.PropertyInitialValue()",
+                        "Object.PropertyInitialValue()"
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "parameters": [
+                {
+                  "description": "Object",
+                  "name": "Object",
+                  "supplementaryInformation": "PanelSpriteSlider::PanelSpriteSlider",
+                  "type": "object"
+                }
+              ],
+              "objectGroups": []
+            },
+            {
+              "fullName": "",
+              "functionType": "Action",
+              "name": "doStepPostEvents",
+              "sentence": "",
+              "events": [
+                {
+                  "colorB": 228,
+                  "colorG": 176,
+                  "colorR": 74,
+                  "creationTime": 0,
+                  "name": "Handle touches",
+                  "source": "",
+                  "type": "BuiltinCommonInstructions::Group",
+                  "events": [
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "BehaviorActivated"
+                          },
+                          "parameters": [
+                            "Background",
+                            "ButtonFSM"
+                          ]
+                        }
+                      ],
+                      "actions": [],
+                      "events": [
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "inverted": true,
+                                "value": "DraggableBehavior::Dragged"
+                              },
+                              "parameters": [
+                                "Thumb",
+                                "Draggable"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "inverted": true,
+                                "value": "DraggableBehavior::Dropped"
+                              },
+                              "parameters": [
+                                "Thumb",
+                                "Draggable"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "BuiltinCommonInstructions::Or"
+                              },
+                              "parameters": [],
+                              "subInstructions": [
+                                {
+                                  "type": {
+                                    "value": "PanelSpriteSlider::ButtonFSM::IsPressed"
+                                  },
+                                  "parameters": [
+                                    "Background",
+                                    "ButtonFSM",
+                                    ""
+                                  ]
+                                },
+                                {
+                                  "type": {
+                                    "value": "PanelSpriteSlider::ButtonFSM::IsPressedOutside"
+                                  },
+                                  "parameters": [
+                                    "Background",
+                                    "ButtonFSM",
+                                    ""
+                                  ]
+                                }
+                              ]
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "PanelSpriteSlider::PanelSpriteSlider::SetValue"
+                              },
+                              "parameters": [
+                                "Object",
+                                "=",
+                                "FillBar.Slider::MinValue() + FillBar.Slider::Size() * (TouchX(Background.ButtonFSM::TouchId(), Object.Layer()) - Object.FullBarLeft()) / Object.FullBarWidth()",
+                                "FillBar.Slider::MinValue() + FillBar.Slider::Size() * (MouseX() - Object.FullBarLeft()) / Object.FullBarWidth()"
+                              ]
+                            }
+                          ],
+                          "events": [
+                            {
+                              "type": "BuiltinCommonInstructions::Standard",
+                              "conditions": [
+                                {
+                                  "type": {
+                                    "value": "PanelSpriteSlider::PanelSpriteSlider::PropertyShowLabelAtChanges"
+                                  },
+                                  "parameters": [
+                                    "Object"
+                                  ]
+                                }
+                              ],
+                              "actions": [
+                                {
+                                  "type": {
+                                    "value": "Montre"
+                                  },
+                                  "parameters": [
+                                    "Label",
+                                    ""
+                                  ]
+                                },
+                                {
+                                  "type": {
+                                    "value": "ResetObjectTimer"
+                                  },
+                                  "parameters": [
+                                    "Label",
+                                    "\"HideBack\""
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "DraggableBehavior::Dragged"
+                              },
+                              "parameters": [
+                                "Thumb",
+                                "Draggable"
+                              ]
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "PanelSpriteSlider::PanelSpriteSlider::SetValue"
+                              },
+                              "parameters": [
+                                "Object",
+                                "=",
+                                "FillBar.Slider::MinValue() + FillBar.Slider::Size() * (Thumb.CenterX() - Object.FullBarLeft()) / Object.FullBarWidth()",
+                                "FillBar.Slider::MinValue() + FillBar.Slider::Size() * (Thumb.CenterX() - Object.FullBarLeft()) / Object.FullBarWidth()"
+                              ]
+                            }
+                          ],
+                          "events": [
+                            {
+                              "type": "BuiltinCommonInstructions::Standard",
+                              "conditions": [
+                                {
+                                  "type": {
+                                    "value": "PanelSpriteSlider::PanelSpriteSlider::PropertyShowLabelAtChanges"
+                                  },
+                                  "parameters": [
+                                    "Object"
+                                  ]
+                                }
+                              ],
+                              "actions": [
+                                {
+                                  "type": {
+                                    "value": "Montre"
+                                  },
+                                  "parameters": [
+                                    "Label",
+                                    ""
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "DraggableBehavior::Dropped"
+                              },
+                              "parameters": [
+                                "Thumb",
+                                "Draggable"
+                              ]
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "ResetObjectTimer"
+                              },
+                              "parameters": [
+                                "Label",
+                                "\"HideBack\""
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "PanelSpriteSlider::PanelSpriteSlider::PropertyShowLabelAtChanges"
+                              },
+                              "parameters": [
+                                "Object"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "CollisionPoint"
+                              },
+                              "parameters": [
+                                "Thumb",
+                                "MouseOnlyCursorX(Object.Layer(), 0)",
+                                "MouseOnlyCursorY(Thumb.Layer(), 0)"
+                              ]
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "Montre"
+                              },
+                              "parameters": [
+                                "Label",
+                                ""
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "ResetObjectTimer"
+                              },
+                              "parameters": [
+                                "Label",
+                                "\"HideBack\""
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "CompareObjectTimer"
+                              },
+                              "parameters": [
+                                "Label",
+                                "\"HideBack\"",
+                                ">",
+                                "0.5"
+                              ]
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "Cache"
+                              },
+                              "parameters": [
+                                "Label"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "RemoveObjectTimer"
+                              },
+                              "parameters": [
+                                "Label",
+                                "\"HideBack\""
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ],
+                  "parameters": []
+                },
+                {
+                  "colorB": 228,
+                  "colorG": 176,
+                  "colorR": 74,
+                  "creationTime": 0,
+                  "name": "Resize",
+                  "source": "",
+                  "type": "BuiltinCommonInstructions::Group",
+                  "events": [
+                    {
+                      "type": "BuiltinCommonInstructions::Comment",
+                      "color": {
+                        "b": 109,
+                        "g": 230,
+                        "r": 255,
+                        "textB": 0,
+                        "textG": 0,
+                        "textR": 0
+                      },
+                      "comment": "Children instances must be resized when the parent size change:\n- background is resized to take the full dimensions of the parent\n- the label is put back at the center of the bar\n\nThe scale is set back to 1 because it means that the parent instance has the same dimensions as the union of its children instances."
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "BuiltinCommonInstructions::Or"
+                          },
+                          "parameters": [],
+                          "subInstructions": [
+                            {
+                              "type": {
+                                "value": "BuiltinCommonInstructions::CompareNumbers"
+                              },
+                              "parameters": [
+                                "Object.Width()",
+                                "!=",
+                                "max(Background.BoundingBoxRight(), max(Label.BoundingBoxRight(), Thumb.BoundingBoxRight())) - min(Background.BoundingBoxLeft(), min(Label.BoundingBoxLeft(), Thumb.BoundingBoxLeft()))"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "BuiltinCommonInstructions::CompareNumbers"
+                              },
+                              "parameters": [
+                                "Object.Height()",
+                                "!=",
+                                "max(Background.BoundingBoxBottom(), max(Label.BoundingBoxBottom(), Thumb.BoundingBoxBottom())) - min(Background.BoundingBoxTop(), min(Label.BoundingBoxTop(), Thumb.BoundingBoxTop()))"
+                              ]
+                            }
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "ModVarObjet"
+                          },
+                          "parameters": [
+                            "Background",
+                            "Width",
+                            "=",
+                            "Object.Width()"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "ModVarObjet"
+                          },
+                          "parameters": [
+                            "Background",
+                            "Height",
+                            "=",
+                            "Object.Height()"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "PanelSpriteSlider::PanelSpriteSlider::Scale"
+                          },
+                          "parameters": [
+                            "Object",
+                            "=",
+                            "1"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "PanelSpriteObject::Width"
+                          },
+                          "parameters": [
+                            "Background",
+                            "=",
+                            "Background.Variable(Width)"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "PanelSpriteObject::Height"
+                          },
+                          "parameters": [
+                            "Background",
+                            "=",
+                            "Background.Variable(Height)"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "PanelSpriteSlider::PanelSpriteSlider::UpdateLayout"
+                          },
+                          "parameters": [
+                            "Object",
+                            ""
+                          ]
+                        }
+                      ]
+                    }
+                  ],
+                  "parameters": []
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Comment",
+                  "color": {
+                    "b": 109,
+                    "g": 230,
+                    "r": 255,
+                    "textB": 0,
+                    "textG": 0,
+                    "textR": 0
+                  },
+                  "comment": "The parent size is not defined in onCreate so it needs to be done here."
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::Once"
+                      },
+                      "parameters": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "PanelSpriteSlider::PanelSpriteSlider::UpdateLayout"
+                      },
+                      "parameters": [
+                        "Object",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "PanelSpriteSlider::PanelSpriteSlider::UpdateThumbPosition"
+                      },
+                      "parameters": [
+                        "Object",
+                        ""
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "parameters": [
+                {
+                  "description": "Object",
+                  "name": "Object",
+                  "supplementaryInformation": "PanelSpriteSlider::PanelSpriteSlider",
+                  "type": "object"
+                }
+              ],
+              "objectGroups": []
+            },
+            {
+              "description": "Check if the slider is being dragged.",
+              "fullName": "Being dragged",
+              "functionType": "Condition",
+              "group": "Slider",
+              "name": "IsBeingDragged",
+              "sentence": "_PARAM0_ is being dragged",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::Or"
+                      },
+                      "parameters": [],
+                      "subInstructions": [
+                        {
+                          "type": {
+                            "value": "DraggableBehavior::Dragged"
+                          },
+                          "parameters": [
+                            "Thumb",
+                            "Draggable"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "PanelSpriteSlider::ButtonFSM::IsPressed"
+                          },
+                          "parameters": [
+                            "Background",
+                            "ButtonFSM",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "PanelSpriteSlider::ButtonFSM::IsPressedOutside"
+                          },
+                          "parameters": [
+                            "Background",
+                            "ButtonFSM",
+                            ""
+                          ]
+                        }
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetReturnBoolean"
+                      },
+                      "parameters": [
+                        "True"
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "parameters": [
+                {
+                  "description": "Object",
+                  "name": "Object",
+                  "supplementaryInformation": "PanelSpriteSlider::PanelSpriteSlider",
+                  "type": "object"
+                }
+              ],
+              "objectGroups": []
+            },
+            {
+              "description": "the value of the slider.",
+              "fullName": "Value",
+              "functionType": "ExpressionAndCondition",
+              "name": "Value",
+              "sentence": "the value",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetReturnNumber"
+                      },
+                      "parameters": [
+                        "FillBar.Slider::Value()"
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "expressionType": {
+                "type": "expression"
+              },
+              "parameters": [
+                {
+                  "description": "Object",
+                  "name": "Object",
+                  "supplementaryInformation": "PanelSpriteSlider::PanelSpriteSlider",
+                  "type": "object"
+                }
+              ],
+              "objectGroups": []
+            },
+            {
+              "fullName": "",
+              "functionType": "ActionWithOperator",
+              "getterName": "Value",
+              "name": "SetValue",
+              "sentence": "",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "PanelSpriteSlider::Slider::SetValue"
+                      },
+                      "parameters": [
+                        "FillBar",
+                        "Slider",
+                        "=",
+                        "GetArgumentAsNumber(\"Value\")",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "PanelSpriteSlider::PanelSpriteSlider::UpdateThumbPosition"
+                      },
+                      "parameters": [
+                        "Object",
+                        ""
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "parameters": [
+                {
+                  "description": "Object",
+                  "name": "Object",
+                  "supplementaryInformation": "PanelSpriteSlider::PanelSpriteSlider",
+                  "type": "object"
+                },
+                {
+                  "description": "Behavior",
+                  "name": "Behavior",
+                  "supplementaryInformation": "PanelSpriteSlider::Slider",
+                  "type": "behavior"
+                }
+              ],
+              "objectGroups": []
+            },
+            {
+              "description": "the minimum value of the slider.",
+              "fullName": "Minimum value",
+              "functionType": "ExpressionAndCondition",
+              "group": "Slider configuration",
+              "name": "MinValue",
+              "sentence": "the minimum value",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetReturnNumber"
+                      },
+                      "parameters": [
+                        "FillBar.Slider::MinValue()"
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "expressionType": {
+                "type": "expression"
+              },
+              "parameters": [
+                {
+                  "description": "Object",
+                  "name": "Object",
+                  "supplementaryInformation": "PanelSpriteSlider::PanelSpriteSlider",
+                  "type": "object"
+                }
+              ],
+              "objectGroups": []
+            },
+            {
+              "fullName": "",
+              "functionType": "ActionWithOperator",
+              "getterName": "MinValue",
+              "name": "SetMinValue",
+              "sentence": "",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "PanelSpriteSlider::Slider::SetMinValue"
+                      },
+                      "parameters": [
+                        "FillBar",
+                        "Slider",
+                        "=",
+                        "GetArgumentAsNumber(\"Value\")",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "PanelSpriteSlider::PanelSpriteSlider::UpdateLayout"
+                      },
+                      "parameters": [
+                        "Object",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "PanelSpriteSlider::PanelSpriteSlider::UpdateThumbPosition"
+                      },
+                      "parameters": [
+                        "Object",
+                        ""
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "parameters": [
+                {
+                  "description": "Object",
+                  "name": "Object",
+                  "supplementaryInformation": "PanelSpriteSlider::PanelSpriteSlider",
+                  "type": "object"
+                },
+                {
+                  "description": "Behavior",
+                  "name": "Behavior",
+                  "supplementaryInformation": "PanelSpriteSlider::Slider",
+                  "type": "behavior"
+                }
+              ],
+              "objectGroups": []
+            },
+            {
+              "description": "the maximum value of the slider.",
+              "fullName": "Maximum value",
+              "functionType": "ExpressionAndCondition",
+              "group": "Slider configuration",
+              "name": "MaxValue",
+              "sentence": "the maximum value",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetReturnNumber"
+                      },
+                      "parameters": [
+                        "FillBar.Slider::MaxValue()"
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "expressionType": {
+                "type": "expression"
+              },
+              "parameters": [
+                {
+                  "description": "Object",
+                  "name": "Object",
+                  "supplementaryInformation": "PanelSpriteSlider::PanelSpriteSlider",
+                  "type": "object"
+                }
+              ],
+              "objectGroups": []
+            },
+            {
+              "fullName": "",
+              "functionType": "ActionWithOperator",
+              "getterName": "MaxValue",
+              "name": "SetMaxValue",
+              "sentence": "",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "PanelSpriteSlider::Slider::SetMaxValue"
+                      },
+                      "parameters": [
+                        "FillBar",
+                        "Slider",
+                        "=",
+                        "GetArgumentAsNumber(\"Value\")",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "PanelSpriteSlider::PanelSpriteSlider::UpdateLayout"
+                      },
+                      "parameters": [
+                        "Object",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "PanelSpriteSlider::PanelSpriteSlider::UpdateThumbPosition"
+                      },
+                      "parameters": [
+                        "Object",
+                        ""
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "parameters": [
+                {
+                  "description": "Object",
+                  "name": "Object",
+                  "supplementaryInformation": "PanelSpriteSlider::PanelSpriteSlider",
+                  "type": "object"
+                },
+                {
+                  "description": "Behavior",
+                  "name": "Behavior",
+                  "supplementaryInformation": "PanelSpriteSlider::Slider",
+                  "type": "behavior"
+                }
+              ],
+              "objectGroups": []
+            },
+            {
+              "description": "the step size of the slider.",
+              "fullName": "Step size",
+              "functionType": "ExpressionAndCondition",
+              "group": "Slider configuration",
+              "name": "StepSize",
+              "sentence": "the step size",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetReturnNumber"
+                      },
+                      "parameters": [
+                        "FillBar.Slider::StepSize()"
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "expressionType": {
+                "type": "expression"
+              },
+              "parameters": [
+                {
+                  "description": "Object",
+                  "name": "Object",
+                  "supplementaryInformation": "PanelSpriteSlider::PanelSpriteSlider",
+                  "type": "object"
+                }
+              ],
+              "objectGroups": []
+            },
+            {
+              "fullName": "",
+              "functionType": "ActionWithOperator",
+              "getterName": "StepSize",
+              "name": "SetStepSize",
+              "sentence": "",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "PanelSpriteSlider::Slider::SetStepSize"
+                      },
+                      "parameters": [
+                        "FillBar",
+                        "Slider",
+                        "=",
+                        "GetArgumentAsNumber(\"Value\")",
+                        ""
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "parameters": [
+                {
+                  "description": "Object",
+                  "name": "Object",
+                  "supplementaryInformation": "PanelSpriteSlider::PanelSpriteSlider",
+                  "type": "object"
+                },
+                {
+                  "description": "Behavior",
+                  "name": "Behavior",
+                  "supplementaryInformation": "PanelSpriteSlider::Slider",
+                  "type": "behavior"
+                }
+              ],
+              "objectGroups": []
+            },
+            {
+              "description": "Check if the label is shown.",
+              "fullName": "Label is shown",
+              "functionType": "Condition",
+              "group": "Slider configuration",
+              "name": "IsLabelShown",
+              "sentence": "_PARAM0_ label is shown",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "PanelSpriteSlider::PanelSpriteSlider::PropertyShowLabelAtChanges"
+                      },
+                      "parameters": [
+                        "Object"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetReturnBoolean"
+                      },
+                      "parameters": [
+                        "True"
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "parameters": [
+                {
+                  "description": "Object",
+                  "name": "Object",
+                  "supplementaryInformation": "PanelSpriteSlider::PanelSpriteSlider",
+                  "type": "object"
+                }
+              ],
+              "objectGroups": []
+            },
+            {
+              "description": "Show (or hide) the label on the bar.",
+              "fullName": "Show label",
+              "functionType": "Action",
+              "group": "Slider configuration",
+              "name": "SetLabelShown",
+              "sentence": "Show the label of _PARAM0_: _PARAM1_",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": true,
+                        "value": "GetArgumentAsBoolean"
+                      },
+                      "parameters": [
+                        "\"Value\""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "PanelSpriteSlider::PanelSpriteSlider::SetPropertyShowLabelAtChanges"
+                      },
+                      "parameters": [
+                        "Object",
+                        "no"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Cache"
+                      },
+                      "parameters": [
+                        "Label"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "GetArgumentAsBoolean"
+                      },
+                      "parameters": [
+                        "\"Value\""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "PanelSpriteSlider::PanelSpriteSlider::SetPropertyShowLabelAtChanges"
+                      },
+                      "parameters": [
+                        "Object",
+                        "yes"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Montre"
+                      },
+                      "parameters": [
+                        "Label",
+                        ""
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "parameters": [
+                {
+                  "description": "Object",
+                  "name": "Object",
+                  "supplementaryInformation": "PanelSpriteSlider::PanelSpriteSlider",
+                  "type": "object"
+                },
+                {
+                  "description": "Show the label",
+                  "name": "Value",
+                  "type": "yesorno"
+                }
+              ],
+              "objectGroups": []
+            },
+            {
+              "description": "Center the bar according to the button configuration. This is used in doStepPostEvents when the button is resized.",
+              "fullName": "Update layout",
+              "functionType": "Action",
+              "name": "UpdateLayout",
+              "private": true,
+              "sentence": "Update layout of _PARAM0_",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "MettreXY"
+                      },
+                      "parameters": [
+                        "FillBar",
+                        "=",
+                        "Object.PropertyBarLeftPadding()",
+                        "=",
+                        "Object.PropertyBarTopPadding()"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "PanelSpriteObject::Height"
+                      },
+                      "parameters": [
+                        "FillBar",
+                        "=",
+                        "round(Background.Height() - Object.PropertyBarTopPadding() - Object.PropertyBarBottomPadding())"
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "parameters": [
+                {
+                  "description": "Object",
+                  "name": "Object",
+                  "supplementaryInformation": "PanelSpriteSlider::PanelSpriteSlider",
+                  "type": "object"
+                }
+              ],
+              "objectGroups": []
+            },
+            {
+              "description": "Update the thumb position according to the slider value.",
+              "fullName": "Update thumb position",
+              "functionType": "Action",
+              "name": "UpdateThumbPosition",
+              "private": true,
+              "sentence": "Update the thumb position of _PARAM0_",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "PanelSpriteSlider::Slider::Size"
+                      },
+                      "parameters": [
+                        "FillBar",
+                        "Slider",
+                        ">",
+                        "0",
+                        ""
+                      ]
+                    }
+                  ],
+                  "actions": [],
+                  "events": [
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "PanelSpriteObject::Width"
+                          },
+                          "parameters": [
+                            "FillBar",
+                            "=",
+                            "Object.FullBarWidth() * (FillBar.Slider::Value() - FillBar.Slider::MinValue()) / FillBar.Slider::Size()"
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "SetCenterX"
+                          },
+                          "parameters": [
+                            "Thumb",
+                            "=",
+                            "Object.FullBarLeft() + FillBar.Width()"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "SetCenterY"
+                          },
+                          "parameters": [
+                            "Thumb",
+                            "=",
+                            "FillBar.CenterY()"
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "TextObject::String"
+                          },
+                          "parameters": [
+                            "Label",
+                            "=",
+                            "ToString(Object.Value())"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "SetCenterX"
+                          },
+                          "parameters": [
+                            "Label",
+                            "=",
+                            "Thumb.CenterX()"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "MettreY"
+                          },
+                          "parameters": [
+                            "Label",
+                            "=",
+                            "Thumb.Y() - Label.Height() - Object.PropertyLabelMargin()"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "TextObject::Angle"
+                          },
+                          "parameters": [
+                            "Label",
+                            "=",
+                            "-Object.Angle()"
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "parameters": [
+                {
+                  "description": "Object",
+                  "name": "Object",
+                  "supplementaryInformation": "PanelSpriteSlider::PanelSpriteSlider",
+                  "type": "object"
+                }
+              ],
+              "objectGroups": []
+            },
+            {
+              "fullName": "",
+              "functionType": "Expression",
+              "name": "FullBarLeft",
+              "private": true,
+              "sentence": "",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetReturnNumber"
+                      },
+                      "parameters": [
+                        "Object.PropertyBarLeftPadding()"
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "expressionType": {
+                "type": "expression"
+              },
+              "parameters": [
+                {
+                  "description": "Object",
+                  "name": "Object",
+                  "supplementaryInformation": "PanelSpriteSlider::PanelSpriteSlider",
+                  "type": "object"
+                }
+              ],
+              "objectGroups": []
+            },
+            {
+              "fullName": "",
+              "functionType": "Expression",
+              "name": "FullBarRight",
+              "private": true,
+              "sentence": "",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetReturnNumber"
+                      },
+                      "parameters": [
+                        "Background.Width() - Object.PropertyBarRightPadding()"
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "expressionType": {
+                "type": "expression"
+              },
+              "parameters": [
+                {
+                  "description": "Object",
+                  "name": "Object",
+                  "supplementaryInformation": "PanelSpriteSlider::PanelSpriteSlider",
+                  "type": "object"
+                }
+              ],
+              "objectGroups": []
+            },
+            {
+              "fullName": "",
+              "functionType": "Expression",
+              "name": "FullBarWidth",
+              "private": true,
+              "sentence": "",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetReturnNumber"
+                      },
+                      "parameters": [
+                        "Background.Width() - Object.PropertyBarLeftPadding() - Object.PropertyBarRightPadding()"
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "expressionType": {
+                "type": "expression"
+              },
+              "parameters": [
+                {
+                  "description": "Object",
+                  "name": "Object",
+                  "supplementaryInformation": "PanelSpriteSlider::PanelSpriteSlider",
+                  "type": "object"
+                }
+              ],
+              "objectGroups": []
+            },
+            {
+              "description": "Update the slider configuration.",
+              "fullName": "Update slider configuration",
+              "functionType": "Action",
+              "name": "UpdateSliderConfiguration",
+              "private": true,
+              "sentence": "Update the slider configuration of _PARAM0_",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Comment",
+                  "color": {
+                    "b": 109,
+                    "g": 230,
+                    "r": 255,
+                    "textB": 0,
+                    "textG": 0,
+                    "textR": 0
+                  },
+                  "comment": "Pass configuration to the behavior and update children."
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "PanelSpriteSlider::PanelSpriteSlider::SetMinValue"
+                      },
+                      "parameters": [
+                        "Object",
+                        "=",
+                        "Object.PropertyMinValue()",
+                        "Object.PropertyMaxValue()",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "PanelSpriteSlider::PanelSpriteSlider::SetMaxValue"
+                      },
+                      "parameters": [
+                        "Object",
+                        "=",
+                        "Object.PropertyMaxValue()",
+                        "Object.PropertyMaxValue()"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "PanelSpriteSlider::PanelSpriteSlider::SetStepSize"
+                      },
+                      "parameters": [
+                        "Object",
+                        "=",
+                        "Object.PropertyStepSize()",
+                        "Object.PropertyMaxValue()"
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "parameters": [
+                {
+                  "description": "Object",
+                  "name": "Object",
+                  "supplementaryInformation": "PanelSpriteSlider::PanelSpriteSlider",
+                  "type": "object"
+                }
+              ],
+              "objectGroups": []
+            },
+            {
+              "description": "De/activate interactions with the button.",
+              "fullName": "De/activate interactions",
+              "functionType": "Action",
+              "name": "Activate",
+              "sentence": "Activate interactions with _PARAM0_: _PARAM1_",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "GetArgumentAsBoolean"
+                      },
+                      "parameters": [
+                        "\"ShouldActivate\""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "ActivateBehavior"
+                      },
+                      "parameters": [
+                        "Thumb",
+                        "Draggable",
+                        "yes"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ActivateBehavior"
+                      },
+                      "parameters": [
+                        "Background",
+                        "ButtonFSM",
+                        "yes"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": true,
+                        "value": "GetArgumentAsBoolean"
+                      },
+                      "parameters": [
+                        "\"ShouldActivate\""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "ActivateBehavior"
+                      },
+                      "parameters": [
+                        "Thumb",
+                        "Draggable",
+                        "no"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ActivateBehavior"
+                      },
+                      "parameters": [
+                        "Background",
+                        "ButtonFSM",
+                        "no"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Cache"
+                      },
+                      "parameters": [
+                        "Label"
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "parameters": [
+                {
+                  "description": "Object",
+                  "name": "Object",
+                  "supplementaryInformation": "PanelSpriteSlider::PanelSpriteSlider",
+                  "type": "object"
+                },
+                {
+                  "description": "Activate",
+                  "name": "ShouldActivate",
+                  "type": "yesorno"
+                }
+              ],
+              "objectGroups": []
+            },
+            {
+              "description": "Check if the slider allows interactions.",
+              "fullName": "Interactions activated",
+              "functionType": "Condition",
+              "name": "IsActivated",
+              "sentence": "Interactions on _PARAM0_ are activated",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "BehaviorActivated"
+                      },
+                      "parameters": [
+                        "Background",
+                        "ButtonFSM"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetReturnBoolean"
+                      },
+                      "parameters": [
+                        "True"
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "parameters": [
+                {
+                  "description": "Object",
+                  "name": "Object",
+                  "supplementaryInformation": "PanelSpriteSlider::PanelSpriteSlider",
+                  "type": "object"
+                }
+              ],
+              "objectGroups": []
+            }
+          ],
+          "propertyDescriptors": [
+            {
+              "value": "0",
+              "type": "Number",
+              "label": "Bar left margin",
+              "description": "",
+              "group": "Bar",
+              "extraInformation": [
+                "Label",
+                "FillBar"
+              ],
+              "hidden": false,
+              "name": "BarLeftPadding"
+            },
+            {
+              "value": "0",
+              "type": "Number",
+              "label": "Bar top margin",
+              "description": "",
+              "group": "Bar",
+              "extraInformation": [
+                "Label",
+                "FillBar"
+              ],
+              "hidden": false,
+              "name": "BarTopPadding"
+            },
+            {
+              "value": "0",
+              "type": "Number",
+              "label": "Bar right margin",
+              "description": "",
+              "group": "Bar",
+              "extraInformation": [
+                "Label",
+                "FillBar"
+              ],
+              "hidden": false,
+              "name": "BarRightPadding"
+            },
+            {
+              "value": "0",
+              "type": "Number",
+              "label": "Bar bottom margin",
+              "description": "",
+              "group": "Bar",
+              "extraInformation": [
+                "Label",
+                "FillBar"
+              ],
+              "hidden": false,
+              "name": "BarBottomPadding"
+            },
+            {
+              "value": "true",
+              "type": "Boolean",
+              "label": "Show the label when the value is changed",
+              "description": "",
+              "group": "Label",
+              "extraInformation": [],
+              "hidden": false,
+              "name": "ShowLabelAtChanges"
+            },
+            {
+              "value": "8",
+              "type": "Number",
+              "label": "Label margin",
+              "description": "",
+              "group": "Label",
+              "extraInformation": [],
+              "hidden": false,
+              "name": "LabelMargin"
+            },
+            {
+              "value": "0",
+              "type": "Number",
+              "label": "Minimum value",
+              "description": "",
+              "group": "Value",
+              "extraInformation": [],
+              "hidden": false,
+              "name": "MinValue"
+            },
+            {
+              "value": "100",
+              "type": "Number",
+              "label": "Maximum value",
+              "description": "",
+              "group": "Value",
+              "extraInformation": [],
+              "hidden": false,
+              "name": "MaxValue"
+            },
+            {
+              "value": "1",
+              "type": "Number",
+              "label": "Step size",
+              "description": "",
+              "group": "Value",
+              "extraInformation": [],
+              "hidden": false,
+              "name": "StepSize"
+            },
+            {
+              "value": "50",
+              "type": "Number",
+              "label": "Initial value",
+              "description": "",
+              "group": "Value",
+              "extraInformation": [],
+              "hidden": false,
+              "name": "InitialValue"
+            },
+            {
+              "value": "",
+              "type": "Number",
+              "label": "",
+              "description": "It's used to detect a change at hot reload.",
+              "group": "",
+              "extraInformation": [],
+              "hidden": true,
+              "name": "PreviousInitialValue"
+            },
+            {
+              "value": "Center-center",
+              "type": "String",
+              "label": "",
+              "description": "Only used by the scene editor.",
+              "group": "",
+              "extraInformation": [
+                "Thumb"
+              ],
+              "hidden": true,
+              "name": "ThumbAnchorOrigin"
+            },
+            {
+              "value": "Center-right",
+              "type": "String",
+              "label": "",
+              "description": "Only used by the scene editor.",
+              "group": "",
+              "extraInformation": [
+                "FillBar"
+              ],
+              "hidden": true,
+              "name": "ThumbAnchorTarget"
+            },
+            {
+              "value": "",
+              "type": "Boolean",
+              "label": "",
+              "description": "Only used by the scene editor.",
+              "group": "",
+              "extraInformation": [
+                "Label"
+              ],
+              "hidden": true,
+              "name": "ShowLabel"
+            }
+          ],
+          "objects": [
+            {
+              "assetStoreId": "",
+              "bold": false,
+              "italic": false,
+              "name": "Label",
+              "smoothed": true,
+              "tags": "",
+              "type": "TextObject::Text",
+              "underlined": false,
+              "variables": [],
+              "effects": [],
+              "behaviors": [],
+              "string": "It displays the value when it changes.",
+              "font": "",
+              "textAlignment": "",
+              "characterSize": 20,
+              "color": {
+                "b": 0,
+                "g": 0,
+                "r": 0
+              }
+            },
+            {
+              "assetStoreId": "",
+              "bottomMargin": 0,
+              "height": 32,
+              "leftMargin": 0,
+              "name": "Thumb",
+              "rightMargin": 0,
+              "tags": "",
+              "texture": "",
+              "tiled": false,
+              "topMargin": 0,
+              "type": "PanelSpriteObject::PanelSprite",
+              "width": 32,
+              "variables": [],
+              "effects": [],
+              "behaviors": [
+                {
+                  "name": "Draggable",
+                  "type": "DraggableBehavior::Draggable",
+                  "checkCollisionMask": false
+                }
+              ]
+            },
+            {
+              "assetStoreId": "",
+              "bottomMargin": 0,
+              "height": 32,
+              "leftMargin": 0,
+              "name": "FillBar",
+              "rightMargin": 0,
+              "tags": "",
+              "texture": "",
+              "tiled": true,
+              "topMargin": 0,
+              "type": "PanelSpriteObject::PanelSprite",
+              "width": 32,
+              "variables": [],
+              "effects": [],
+              "behaviors": [
+                {
+                  "name": "Slider",
+                  "type": "PanelSpriteSlider::Slider",
+                  "Value": 0,
+                  "MinValue": 0,
+                  "MaxValue": 1,
+                  "StepSize": 1
+                }
+              ]
+            },
+            {
+              "assetStoreId": "",
+              "bottomMargin": 0,
+              "height": 32,
+              "leftMargin": 0,
+              "name": "Background",
+              "rightMargin": 0,
+              "tags": "",
+              "texture": "",
+              "tiled": true,
+              "topMargin": 0,
+              "type": "PanelSpriteObject::PanelSprite",
+              "width": 32,
+              "variables": [],
+              "effects": [],
+              "behaviors": [
+                {
+                  "name": "ButtonFSM",
+                  "type": "PanelSpriteSlider::ButtonFSM",
+                  "ShouldCheckHovering": true,
+                  "State": "Idle",
+                  "TouchId": 0,
+                  "TouchIsInside": false,
+                  "MouseIsInside": false,
+                  "Index": 0
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "externalLayouts": [],
+  "externalSourceFiles": []
+}
